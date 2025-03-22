@@ -37,8 +37,8 @@
 3) 데이터 기반 금융 서비스 연계 : 축저된 차량 데이터를 기반으로 맞춤형 보험상품 추천, 대출 서비스 등을 제공하여 사용자 편의성
 
 ## 6. 팀원소개
-허수정 (Product Strategist)
-최태헌 (Backend Development)
-김재원 (Frontend Development)
-조재민 (Frontend Development)
-최규호 (Data Analysis)
+- 허수정 (Product Strategist)
+- 최태헌 (Backend Development)
+- 김재원 (Frontend Development)
+- 조재민 (Frontend Development)
+- 최규호 (Data Analysis)

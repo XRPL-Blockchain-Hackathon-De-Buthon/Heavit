@@ -42,3 +42,6 @@
 - 김재원 (Frontend Development)
 - 조재민 (Frontend Development)
 - 최규호 (Data Analysis)
+
+[![Video Label](http://img.youtube.com/vi/ALYP-MlPbwQ/0.jpg)](https://youtu.be/ALYP-MlPbwQ)
+(http://youtube.com/watch?v=ALYP-MlPbwQ)

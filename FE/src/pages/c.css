@@ -1,0 +1,119 @@
+/* 부모 요소에 높이와 100% 너비 설정 */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background: white;
+  border: 1px solid #EAEAEA;
+  border-radius: 8px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+
+.title {
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+}
+
+.subtitle {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.tabs {
+  display: flex;
+  justify-content: space-between;
+  background: #F5F5F5;
+  border-radius: 6px;
+  width: 100%;
+  padding: 5px;
+}
+
+.tab {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  background: transparent;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+  color: black;
+}
+
+.tab.active {
+  background: white;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  align-items: center;
+}
+
+.icon {
+  margin-right: 10px;
+  color: #666;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background: white;
+  border: 1px solid #EAEAEA;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.input {
+  width: 100%;
+  border: none;
+  background: white;
+  color: black;
+  outline: none;
+}
+
+.verify-btn, .tokenize-btn {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-icon {
+  margin-right: 8px;
+}
+
+.verify-btn {
+  background: navy;
+  color: white;
+}
+
+.tokenize-btn {
+  background: none;
+  color: #6A5ACD;
+  border: 1px solid #6A5ACD;
+}
